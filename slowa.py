@@ -14,7 +14,6 @@ def binary_word(a):
     lista2 = reduce( (lambda a,b: a+b), lista)
     return [int(i) for i in lista2]
 
-
-
 def bytes_word(s):
     return [ord(i) for i in s]
+
